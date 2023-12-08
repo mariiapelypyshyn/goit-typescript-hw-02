@@ -7,9 +7,9 @@ type Page = {
   likes: number;
   accounts: string[];
   status: string;
-  details?: {
-    createAt: any,
-    updateAt: any,
+  details?:  {
+    createAt: Date,
+    updateAt: Date,
   }
 }
 
